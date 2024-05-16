@@ -38,7 +38,6 @@ public class RestTemplateUtil {
     public Account postUserInfoRest() {
     	System.out.println("hello");
         Map<String, String> requestBody = new HashMap<>();
-
         requestBody.put("username", "myname");
         requestBody.put("password", "mypassword");
         requestBody.put("email", "12@mail.com");
@@ -52,6 +51,7 @@ public class RestTemplateUtil {
         System.out.println(result);
         return result;
     }
+    
 
 
 }
